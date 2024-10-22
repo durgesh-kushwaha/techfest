@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - FitLife Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="index.html#products">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="signup">
+            <h2>Sign Up</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other" required>
+                    <label for="other">Other</label>
+                </div>
+                
+                <div class="form-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Subscribe to newsletter</label>
+                </div>
+                
+                <div class="form-group">
+                    <label for="language">Select Language:</label>
+                    <select id="language" name="language" required>
+                        <option value="">Choose a language</option>
+                        <option value="hindi">Hindi</option>
+                        <option value="english">English</option>
+                        <option value="bhojpuri">Bhojpuri</option>
+                    </select>
+                </div>
+                
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://instagram.com/durgeshkushwaha_16" target="_blank">Instagram</a>
+            <a href="https://github.com/durgesh-kushwaha" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/durgesh-kushwaha" target="_blank">LinkedIn</a>
+            <a href="https://facebook.com/2004.durgesh" target="_blank">Facebook</a>
+            <a href="https://x.com/im_durgesh_" target="_blank">X.com</a>
+        </div>
+        <p>Copyright &copy; 2023 FitLife Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>
